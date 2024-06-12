@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>T-Shirts</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1>Products</h1>
+      </div>
+    </div>
+    <div class="row mb-3">
+        <ul id="categories"class="nav category-list">
+          <li class="nav-item">
+            <a href="#"  class="nav-link btn btn-light btn-sm rounded-0 mx-1">All</a>
+          </li>
+          <li class="nav-item">
+            <a href="#"  class="nav-link btn btn-light btn-sm rounded-0 mx-1 active">T-Shirts</a>
+          </li>
+          <li class="nav-item">
+            <a href="#"  class="nav-link btn btn-light btn-sm rounded-0 mx-1">Pants</a>
+          </li>
+          <li class="nav-item">
+            <a href="#"  class="nav-link btn btn-light btn-sm rounded-0 mx-1">Shoes</a>
+          </li>
+        </ul>
+    </div>
+    <!-- Products -->
+    <div class="row" id="products">
+      <div class="col col-12 col-md-6 col-lg-4 p-3 bg-light">
+          <img class="img-fluid" src="images/blue-t-shirt.jpg" alt="Blue T-Shirt" />
+          <h2>Blue T-Shirt</h2>
+          <div class="d-flex justify-content-between">
+              <p><strong><em>$7.99</em></strong></p>
+              <button class="btn btn-secondary rounded-0">Buy</button>
+          </div>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
